@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Valuuta kalkulaator</title>
+    <link rel="stylesheet" href="dlinaStyle.css" type="text/css">
+    <title>Calculator</title>
+</head>
+<body>
+<h1>Перевод сантиметров</h1>
+<form name="cm">
+    <label for="resenie">Sisesta </label>
+    <input type="number" name="resenie" id="resenie">
+    <label for="resenie">cm = </label>
+    <select name="dlina" onchange="perevodsm(event)">
+
+        <option value=""></option>
+        <option value="kilo">Kilomeetr</option>
+        <option value="metr">Meetr</option>
+        <option value="deci">Decimeetr</option>
+        <option value="canti">Santimeetr</option>
+        <option value="mili">Milimeetr</option>
+        <option value="mikron">Mikron</option>
+        <option value="nano">Nanomeetr</option>
+        <option value="ang">Angstrem</option>
+
+
+    </select>
+    <div id="otvet">Vastus</div>
+</form>
+
+<script src="dlina2.js"></script>
+</body>
+</html>

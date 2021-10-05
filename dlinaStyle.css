@@ -1,0 +1,11 @@
+form[name="cm"]
+{
+    background-color:#FFA07A;
+    max-width:500px;
+    padding:16px;
+    border-radius: 20px 10px 20px 10px;
+    border-color: black;
+}
+body{
+    background-color: #FFFAFA;
+}
